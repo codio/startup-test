@@ -15,7 +15,7 @@ As we have a quite a few PHP users, the project includes a simple `index.php` th
 I have configured a `startup.sh` file that ensures that Box Parts are all working. It start Apache2 but only if Apache2 has already been installed.
 
 ###If a fresh install of this project then ..
-- Run `parts install apache2` 
+- Run `parts install php5`
 - Run `parts start apache2`
 
 ###If fresh or a re-run
