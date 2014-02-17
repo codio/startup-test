@@ -1,0 +1,13 @@
+{
+// Configure your Run and Preview buttons here.
+
+  // Run button configuration
+  "commands": { 
+    "Search Parts" : "parts search",
+    "Install Parts" : "parts install php5",  
+    "Start Apache" : "parts start apache2",
+    "Install npm" : "npm install",
+    "Move Folder" : "mv node_modules test_modules",
+    "Remove Folder" : "rm -rf test_modules"
+  }
+}

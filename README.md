@@ -6,6 +6,10 @@ At this point it is very basic, but please feel free to modify this over time to
 ##General
 
 - Import the repo using Create Project
+- Access the Run menu where all the following steps are configured in the .codio file
+
+The tests can be manually if required. Follow these steps:
+
 - Open a Terminal Window
 - Type `parts search` and check output
 
