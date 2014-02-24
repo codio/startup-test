@@ -7,6 +7,7 @@ At this point it is very basic, but please feel free to modify this over time to
 
 - Import the repo using Create Project
 - Access the Run menu where all the following steps are configured in the .codio file
+- Do a quick Project Index (static) to ensure it is working
 
 The tests can be manually if required. Follow these steps:
 
