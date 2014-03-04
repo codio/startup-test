@@ -37,5 +37,15 @@ I have configured a `startup.sh` file that ensures that Box Parts are all workin
 - Enter `mv node_modules test_modules` to check mv reflects properly in the file tree
 - Enter `rm -rf test_modules` to check proper removal from the file tree
 
-##Any other good ideas?
+##Large Projects
+
+- Install Composer with `parts install composer`
+- Install Laravel `composer create-project laravel/laravel --prefer-dist` (can take a while)
+- After this, check that there is just one 'laravel' folder created and present
+- Create a new folder `move`
+- Drag and drop the internal contents of `laravel` (not the 'laravel' folder itself) into `moved`
+- Does this all move properly? Currently, there is a long delay where nothing happens (should be fixed soon with some sort of filetree progress indicator)
+- run `rm -rf move` to remove the contents. Does it get removed and is there a delay (same comments as above regarding a new progress indicator)
+
+
 
