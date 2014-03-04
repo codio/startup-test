@@ -46,6 +46,6 @@ I have configured a `startup.sh` file that ensures that Box Parts are all workin
 - Drag and drop the internal contents of `laravel` (not the 'laravel' folder itself) into `moved`
 - Does this all move properly? Currently, there is a long delay where nothing happens (should be fixed soon with some sort of filetree progress indicator)
 - run `rm -rf move` to remove the contents. Does it get removed and is there a delay (same comments as above regarding a new progress indicator)
-
+- test high speed editing of any file in the project. Hold keys down and ensure editing speed is good.
 
 
