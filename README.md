@@ -9,10 +9,15 @@ At this point it is very basic, but please feel free to modify this over time to
 - Access the Run menu where all the following steps are configured in the .codio file
 - Do a quick Project Index (static) to ensure it is working
 
-The tests can be manually if required. Follow these steps:
+The tests can be run manually if required. Follow these steps:
 
 - Open a Terminal Window
 - Type `parts search` and check output
+
+##File and Folder creation
+
+- Create a file and a folder and check that they are both successfully created
+
 
 ##PHP
 As we have a quite a few PHP users, the project includes a simple `index.php` that can be run by pressing the 'Box URL' menu item.
@@ -30,6 +35,7 @@ I have configured a `startup.sh` file that ensures that Box Parts are all workin
 ##Node
 
 - From the terminal, enter `npm install` and make sure it runs
+
 
 ##Claptrap
 
